@@ -222,7 +222,7 @@ class GithubIntegration(Framework.BasicTestCase):
         repo_installation_authorization = github_integration.get_access_token(self.repo_installation_id)
         self.assertEqual(
             repo_installation_authorization.token,
-            "ghs_1llwuELtXN5HDOB99XhpcTXdJxbOuF0ZlSmj",
+            "ghs_DUMMYTOKENREMOVEDFORSECURITY12345",
         )
         self.assertDictEqual(
             repo_installation_authorization.permissions,
@@ -257,7 +257,7 @@ class GithubIntegration(Framework.BasicTestCase):
         user_installation_authorization = github_integration.get_access_token(self.user_installation_id)
         self.assertEqual(
             user_installation_authorization.token,
-            "ghs_1llwuELtXN5HDOB99XhpcTXdJxbOuF0ZlSmj",
+            "ghs_DUMMYTOKENREMOVEDFORSECURITY12345",
         )
         self.assertDictEqual(
             user_installation_authorization.permissions,
