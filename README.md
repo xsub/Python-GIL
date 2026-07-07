@@ -59,3 +59,8 @@ Test and update Rust-backed Python packages with PyO3's new `gil-refs` disabled 
 
 ### 5. ThreadSanitizer (TSAN) Bug Hunting
 Compile CPython or a major library with TSAN enabled (`./configure --with-thread-sanitizer`). Run the test suite and report data races to the core developers.
+
+
+## Related projects:
+- [https://github.com/xsub/asyncssh-GIL-free](https://github.com/xsub/asyncssh-GIL-free)
+- [https://github.com/xsub/paramiko-GIL-free](https://github.com/xsub/paramiko-GIL-free)
