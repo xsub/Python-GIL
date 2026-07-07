@@ -5,7 +5,7 @@ apache-airflow
 apache-airflow-providers-common-sql
 argon2-cffi
 argon2-cffi-bindings
-assyncssh [https://github.com/ronf/asyncssh/pull/817](https://github.com/ronf/asyncssh/pull/817)
+assyncssh [1]
 azure-cli
 azure-datalake-store
 azure-identity
@@ -44,7 +44,7 @@ notebook-shim
 numba
 opencv-python
 pandas-gbq
-paramiko [https://github.com/paramiko/paramiko/pull/2642](https://github.com/paramiko/paramiko/pull/2642)
+paramiko
 poetry
 poetry-plugin-export
 pydantic-core
@@ -66,3 +66,5 @@ tb-nightly
 tensorboard
 tensorflow
 ```
+[1] [https://github.com/ronf/asyncssh/pull/817](https://github.com/ronf/asyncssh/pull/817)
+[2] [https://github.com/paramiko/paramiko/pull/2642](https://github.com/paramiko/paramiko/pull/2642)
